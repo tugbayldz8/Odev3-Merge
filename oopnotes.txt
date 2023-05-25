@@ -1,0 +1,17 @@
+-private olan bir değişkeni başka sınıfta çağırabilmek  için  get metodu yazılır.
+-private olan bir değişkeni başka sınıfta değer verebilmek için set metodu yazılır.
+-static method oşluşturmanın avantajı başka sınıfta nesne oluşturmaya gerek kalmadan bunu kullanabilmek.
+-polymorphism---->    calisan ak= new akademisyen(bıdıbıdı);  ...
+burda akademisyen, calisanin alt sınıflarından biriyse üstteki gibi kullanılabilir...daha bilimsel:
+refereans gösterilen sınıftan yeni bir obje uretilirken oluşturulan constructor sınıf... 
+bu ref. gösterilen sınıfın alt sınıfıysa bu şekilde obje üretilebilir(çok biçimlilik)...
+	BURDA ak, CALISANDAN REFERANS ALIP AKADEMİSYEN SINIFINDAYMIŞ GİBİ DAVRANACAK.
+-eğer bir sınıfta abstract metod varsa sınıf da abstract olmak zorunda!
+-kalıtımda bi üst sınıftan kalıtım aldığını extends yazarak gösteriyoduk interface sınıfına ulaşmak 
+için ise implements yazıyoruz.
+           public class Akademisyen implements ICalisan;   //interface 
+           public class Akademisyen extends Calisan;       //kalitim
+-methodların başında @ovveride yazılsa iyi olur. bu akademisyen sınıftında ovveride edilmişse ICalisan sınıfı içinde 
+böyle bi method var diye anlarız.
+-abstract sınıflar gibi interfacelerden de nesne ÜRETİLEMEZ!!!!
+-uml de bağlantı çizgisi nokta nokta ise sınıflar birbirine bağlıdır.
